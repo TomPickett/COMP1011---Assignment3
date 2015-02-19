@@ -67,5 +67,4 @@ public abstract class Planet {
 		return "The Planets Name is: " + this._name + " with a diameter of: " + this._diameter + " and a mass of: " + this._mass;
 		
 	}	
-	
 }
