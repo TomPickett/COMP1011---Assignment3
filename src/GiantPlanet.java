@@ -11,8 +11,9 @@ public class GiantPlanet extends Planet implements IHasMoons, IHasRings {
 	
 	//Constructor ---------------------------------------------------------------------------
 	public GiantPlanet(String name, double diameter, double mass, String type) {
-		
+		//Calling the local instances from the super class Planet 
 		super(name, diameter, mass);
+		//initializing the local vairiable for this class
 		this._type = type;
 	}
 

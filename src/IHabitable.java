@@ -1,4 +1,4 @@
 
 public interface IHabitable {
-	Boolean Habitable();
+	Boolean habitable();
 }

@@ -64,7 +64,7 @@ public abstract class Planet {
 	@Override
 	public String toString() {
 		
-		return "The Planets Name is: " + this._name + " with a diameter of: " + this._diameter + " and a mass of: " + this._mass;
+		return "The Planet's Name is " + this._name + ", with a diameter of " + this._diameter + "km, and a mass of " + this._mass + "kg";
 		
 	}	
 }
