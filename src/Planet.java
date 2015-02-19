@@ -13,51 +13,51 @@ public abstract class Planet {
 	//Public Properties --------------------------------------------------------------------
 	
 	public double get_diameter() {
-		return _diameter;
+		return this._diameter;
 	}
 
 	public double get_mass() {
-		return _mass;
+		return this._mass;
 	}
 
 	public String get_name() {
-		return _name;
+		return this._name;
 	}
 	
 	public int get_moonCount() {
-		return _moonCount;
+		return this._moonCount;
 	}
 	public void set_moonCount(int _moonCount) {
 		this._moonCount = _moonCount;
 	}
 	
 	public double get_orbitalPeriod() {
-		return _orbitalPeriod;
+		return this._orbitalPeriod;
 	}
 	public void set_orbitalPeriod(double _orbitalPeriod) {
 		this._orbitalPeriod = _orbitalPeriod;
 	}
 	
 	public int get_ringCount() {
-		return _ringCount;
+		return this._ringCount;
 	}
 	public void set_ringCount(int _ringCount) {
 		this._ringCount = _ringCount;
 	}
 	
 	public double get_rotationPeriod() {
-		return _rotationPeriod;
+		return this._rotationPeriod;
 	}
 	public void set_rotationPeriod(double _rotationPeriod) {
 		this._rotationPeriod = _rotationPeriod;
 	}
 
 	//Contructor Method--------------------------------------------------------------------
-	public Planet() {
+	public Planet(String name, double diameter, double mass) {
 		//Creating name, diameter and mass as local variables and assigning them to the related intance variables
-		String name = this._name;
-		double diameter = this._diameter;
-		double mass = this._mass;
+		this._name = name;
+		this._diameter = diameter;
+		this._mass = mass;
 	}
 	
 	//Override the public method toString()--------------------------------------------------
